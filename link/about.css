@@ -1,0 +1,96 @@
+/* CSS Document */
+.background1{
+	width: 100%;
+/*
+	background-image: url("img/Artboard 1.png");
+	background-size: cover;
+	background-attachment: fixed;
+*/
+	position: absolute;
+	z-index: 10;
+}
+.background1 video{
+	width: 100%;
+	height: 1300px;
+	object-fit: cover;
+}
+.ava{
+	width: 600px;
+	height: 600px;
+	background-image: url("img/60838344_1213982295442855_7411574434185609216_n.jpg");
+	background-size: cover;
+	position: absolute;
+	z-index: 10;
+	margin: 150px 400px;
+	transition-duration: 1.5s;
+	border-radius: 50%;
+}
+.ava:hover{
+	border-radius: 5px;
+	filter: contrast(1.2);
+	-webkit-box-shadow: -1px 4px 13px 3px rgba(0,0,0,0.3); 
+box-shadow: -1px 4px 13px 3px rgba(0,0,0,0.3);
+}	
+.thongtin{
+	width: 600px;
+	height: 440px;
+	background: rgba(0,0,0,0.50);
+	position: absolute;
+	z-index: 11;
+	margin: 800px 400px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+.thongtin h1{
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 58px;
+	-webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+	text-align: center;
+}
+.thongtin p{
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 5px;
+}
+.line{
+	width:100%;
+	height: 1px;
+	background: rgba(255,255,255,1.00);
+	margin-top: 20px;
+}
+.box-column-total{
+	display: flex;
+	justify-content: space-between;
+}
+.box-column{
+	width: 48%;
+	height: 60px;
+	float: left;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.tt-box1{
+	width:100%;
+	height: 20px;
+	font-weight: 300;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.left1{
+	margin-left: 15px;
+}
+.tt-box1 span{
+	font-weight: 500;
+}
+.ab{
+	margin-top: 50px;
+}
+p{
+	letter-spacing: 2px;
+}
